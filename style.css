@@ -1,6 +1,5 @@
 body{
     background-color: azure;
-    background-image: url("");
 }
 hr{
     border-style: dotted none none; color: green;
@@ -29,13 +28,16 @@ td{
 h1, h2, h3{
     color: green;
 }
-.submit{
+.Submit{
     width: 10em;
     height: 5ex;
-    background-color: gold;
-    border: 2px solid firebrick;
-    border-radius: 10px;
+    background-color: rgb(240, 237, 218);
+    border: 2px solid rgb(206, 188, 188);
+    border-radius: 50%;
     font-weight: bold;
     color: black;
     cursor: pointer;
+}
+.Submit:hover{
+    background-color: green;
 }
