@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+    background-image: url("");
+}
+hr{
+    border-style: dotted none none; color: green;
+    background-color: white;
+    border-width: 5px;
+    width: 10%;
+    height: 1px;
+}
+h2, h1{
+    color: green;
+}
+table.workex{
+    border: 1px solid black;
+}
+img{
+    border-radius: 100%;
+}
+table.workex, table.education, table.skills, table.tools{
+    border: 1px solid black;
+    
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+}
+h1, h2, h3{
+    color: green;
+}
+.submit{
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
