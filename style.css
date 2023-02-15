@@ -1,29 +1,37 @@
 body{
     background-color: azure;
+    background-image: url("");
 }
 hr{
     border-style: dotted none none; color: green;
-    background-color: white;
+    background-color: none;
     border-width: 5px;
     width: 10%;
     height: 1px;
 }
-h2, h1{
+h1:not(.myname) h1:not(#home-name), h2, h3{
     color: green;
+    text-decoration: underline green;
 }
-table.workex{
-    border: 1px solid black;
-}
-img{
+img.myphoto{
     border-radius: 100%;
 }
 table.workex, table.education, table.skills, table.tools{
     border: 1px solid black;
-    
     border-collapse: collapse;
 }
+table.workex:hover,table.education:hover, table.skills:hover, table.tools:hover{
+    background-color: lightgreen;
+    color: black;
+}
 td{
-    padding: 15px;
+    padding: 20px;
+}
+td:not(.no-style){
+    
+    border: 1px solid black;
+    
+    border-collapse: collapse;
 }
 h1, h2, h3{
     color: green;
@@ -39,5 +47,10 @@ h1, h2, h3{
     cursor: pointer;
 }
 .Submit:hover{
-    background-color: green;
+    background-color: lightgreen;
 }
+
+.dark-mode {
+    background-color: rgb(41, 40, 40);
+    color: white;
+  }
