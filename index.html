@@ -3,32 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
     <title>Personal Website</title>
-
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb233c413c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
-
 <body>
-    <center>
-        <table cellspacing="20">
+    
+    <div style="float: right"><button onclick="myFunction()"><i class="fa-solid fa-circle-half-stroke" id="darkk" ></i></button></div>
+
+    <div><center>
+        <table class="no-style" cellspacing="20">
         <tr>
-            <td><p align="center"><img src="https://media.licdn.com/dms/image/D4D03AQED8azKLNAk1w/profile-displayphoto-shrink_800_800/0/1671203207253?e=1681948800&v=beta&t=H3iuUo8kfxwc9Rvgo8sWARZJiPrq_qh9an_aXvTL3pQ" alt="Photo" width="250px" height="200px" loading="lazy"></p></td>
-                    <td><h1 align="right">Shivang Pandey</h1>
-                        <p align="right"><em>Senior Consultant</em></p>
-                        <p align="right"><strong><em><a href="https://www.bcg.com/">Boston Consultant Group</a></em></strong></p>
-                        <p align="right"><em>Boston, Massachussets</em></p>
-                    </td>
+            <td class="no-style" ><p align="center"><img class="myphoto" src="https://media.licdn.com/dms/image/D4D03AQED8azKLNAk1w/profile-displayphoto-shrink_800_800/0/1671203207253?e=1681948800&v=beta&t=H3iuUo8kfxwc9Rvgo8sWARZJiPrq_qh9an_aXvTL3pQ" alt="Photo" width="250px" height="200px" loading="lazy"></p></td>
+            <td class="no-style" id="home-name" ><h1 align="right">Shivang Pandey</h1>
+                <p align="right"><em>Senior Consultant</em></p>
+                <p align="right"><strong><em><a href="https://www.bcg.com/">Boston Consultant Group</a></em></strong></p>
+                <p align="right"><em>Boston, Massachussets</em></p>
+            </td>
         </tr>
     </table>
-</center>
+</center></div>
     
     <p>I am an experienced consultant with over 10 successful assignments with 
         top institutions such as Pfizer, Alphabet Inc. and NASA.</p>
-    <p>Link to: OR <a href="contact.html">Contact Information</a></p>
-    <a href="resume.html"><strong>Detailed Resume</strong></a>
+    <p><a href="contact.html">Contact Information</a></p>
+    <a href="resume.html"><strong>Detailed Resume (Actual)</strong></a>
     <hr>
 
     <h2>Books and Tracking</h2>
@@ -58,11 +57,6 @@
     <h2>Work Experience</h2>
     <table class="workex">
         <caption>Employment Information</caption>
-        <colgroup>
-            <col style="background-color:rgb(240, 206, 206)">
-            <col style="background-color:rgb(230, 217, 217)">
-            <col style="background-color:rgb(240, 206, 206)">
-          </colgroup>
         <thead>
             <tr>
                 <th>Company</th>
@@ -70,26 +64,37 @@
                 <th>Duration</th>
             </tr>
         </thead>
-        <tr>
-            <td>Spectraforce Technologies</td>
-            <td>US Recruiter</td>
-            <td>Dec 2022 - Feb 2022</td>
-        </tr>
-        <tr>
-            <td>Coaching Institute</td>
-            <td>Private Tutor</td>
-            <td>Jan 2022 - Dec 2022</td>
-        </tr>
-        <tr>
-            <td>Deloitte USI</td>
-            <td>Associate Analyst</td>
-            <td>Oct 2021 - Jan 2022</td>
-        </tr>
-        <tr>
-            <td>Tata Consultancy Services</td>
-            <td>Technical Support Provider</td>
-            <td>Sep 2021</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Spectraforce Technologies</td>
+                <td>US Recruiter</td>
+                <td>Dec 2022 - Feb 2022</td>
+            </tr>
+            <tr>
+                <td>Coaching Institute</td>
+                <td>Private Tutor</td>
+                <td>Jan 2022 - Dec 2022</td>
+            </tr>
+            <tr>
+                <td>Deloitte USI</td>
+                <td>Associate Analyst</td>
+                <td>Oct 2021 - Jan 2022</td>
+            </tr>
+            <tr>
+                <td>Tata Consultancy Services (Internship)</td>
+                <td>Technical Support Provider</td>
+                <td>Sep 2021</td>
+            </tr>
+        </tbody>
+        
     </table>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+
 </body>
 </html>
