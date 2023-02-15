@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Information</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1 align="center">Contact Information</h1>
@@ -19,44 +19,46 @@
 
     <h3>Submit Your Question</h3>
 
-    <form action="mailto:shivang.wpandey@gmail.com" method="post" enctype="text/plain">
-        <table cellspacing="5">
-            <tr>
-                <td><label>Name</label></td>
-                <td><input type="text" placeholder="Name" name="name" size="25" required/></td>
-            </tr>
-            <tr>
-                <td><label for="">Gender</label></td>
-                <td><input type="radio" name="gender" id="male" value="Male">
-                    <label for="male">Male</label>
-                    <input type="radio" name="gender" id="female" value="Female">
-                    <label for="female">Female</label>
-                    <input type="radio" name="gender" id="others" value="Others">
-                    <label for="others">Others</label>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="datetime">Date & Time</label></td>
-                <td><input type="datetime-local" name="datetime" id="datetime" style="width:205px"></td>
-            </tr>
-            <tr>
-                <td><label for="file">Upload a file</label></td>
-                <td><input type="file" name="file" id="file"></td>
-            </tr>
-            <tr>
-                <td><label>Email</label></td>
-                <td><input type="text" placeholder="someone@exmaple.com" name="email" size="25" required/></td>
-            </tr>
-            <tr>
-                <td><label for="">Password</label></td>
-                <td><input type="password" name="password" id="password" size="25"></td>
-            </tr>
-        <tr>
-            <td style="text-align: left; vertical-align: top;"><label>Message</label></td>
-            <td><textarea name="message" cols="40" rows="15" placeholder="Start typing here...." required></textarea></td>
-            <td><button type="submit" class="Submit">Submit</button></td>
-        </tr>
-    </table>
-    </form>
+<form action="mailto:shivang.wpandey@gmail.com" method="post" enctype="text/plain">
+  <table cellspacing="5">
+    <tr>
+      <td class="no-style"><label>Name</label></td>
+      <td class="no-style"><input type="text" placeholder="Name" name="name" size="25" required/></td>
+    </tr>
+    <tr>
+      <td class="no-style"><label for="">Gender</label></td>
+      <td class="no-style">
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="Others">
+        <label for="others">Others</label>
+      </td>
+    </tr>
+    <tr>
+      <td class="no-style"><label for="datetime">Date & Time</label></td>
+      <td class="no-style"><input type="datetime-local" name="datetime" id="datetime" style="width:205px"></td>
+    </tr>
+    <tr>
+      <td  class="no-style"><label for="file">Upload a file</label></td>
+      <td class="no-style"><input type="file" name="file" id="file"></td>
+    </tr>
+    <tr>
+      <td class="no-style"><label>Email</label></td>
+      <td class="no-style"><input type="text" placeholder="someone@exmaple.com" name="email" size="25" required/></td>
+    </tr>
+    <tr>
+      <td class="no-style"><label for="">Password</label></td>
+      <td class="no-style"><input type="password" name="password" id="password" size="25"></td>
+    </tr>
+    <tr>
+      <td  class="no-style" style="text-align: left; vertical-align: top;"><label>Message</label></td>
+      <td class="no-style"><textarea name="message" cols="40" rows="15" placeholder="Start typing here...." required></textarea></td>
+      <td class="no-style"><button type="submit" class="Submit">Submit</button></td>
+    </tr>
+  </table>
+  
+</form>
 </body>
 </html>
